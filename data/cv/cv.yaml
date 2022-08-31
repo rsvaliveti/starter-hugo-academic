@@ -1,0 +1,233 @@
+
+basics:
+  firstname: Radhakrishna
+  lastname: Valiveti
+  email: rsvaliveti@gmail.com
+  phone: 510-371-4014
+  website: rsvaliveti.github.io
+  location:
+    address: 5309 Asilomar Ct
+    city:    Union City
+    state:   CA
+    code:    94587
+
+education:
+- school: Carleton University
+  location: Ottawa, Canada
+  area: Electrical Engineering
+  degree: Ph.D.
+  startDate: 9/1987
+  endDate: 12/1990
+  gpa: " "
+
+- school: McGill University
+  location: Montreal, Canada
+  degree: M. Sc.
+  area: Computer Science
+  gpa: " "
+  startDate: '1979'
+  endDate: '1981'
+
+- school: Indian Institute of Technology
+  location: Kharagpur, India
+  degree: B. Tech.
+  area: Electronics and Electrical Communication
+  gpa: " "
+  startDate: 7/1973
+  endDate: 5/1978
+
+summary:
+  - Extensive experience in optical transport network architecture (e.g. OTN, SONET), 
+    network element architecture, design, and implementation of carrier-grade 
+    transmission products. 
+  - Extensive experience in developing requirements for ASICs/FPGAs used in OTN 
+    network elements
+  - 'Regular contributor to ITU-T SG15 in the following areas: OTN Equipment, 
+    OTN Signal Formats & OTN Network Element Management.' 
+  - Co-authored IETF drafts related to GMPLS Extensions to support Beyond 100G
+    OTN links, FlexE connection signaling.
+  - Hands on experience with the design & implementation of protocol software 
+    for Layers 2-5 of the OSI stack (e.g. LAPD, CLNP, IS-IS, ES-IS, TP4), IP/ATM, MPLS based L3VPNs
+  - In-depth understanding of networking protocols, and their applications
+
+work:
+- company: Infinera Corp
+  location: Sunnyvale, USA
+  position: System Architect (Distinguished Engineer)
+  website: https://www.infinera.com
+  startDate: 10/2006
+  highlights:
+  - 'Developed (white-box) requirements for various generations of Infinera ASICs
+    in these areas: G.709 OTN tributary interfaces, FlexE, FlexO, Infinera Proprietary
+    Signals/Formats (used on the line-side interfaces), Overhead processing, Alarm
+    Propagation. Supported the ASIC development team through all stages of development
+    to ensure full compliance to applicable standards.'
+  - 'Developed requirements for Layer 1 encryption (AES-GCM, AES-CTR modes) in INFN
+    ASICs: at the ODU layer (in mapper ASIC) & bulk encryption (DSP ASIC). These requirements
+    addressed the following aspects: algorithmic compliance, support for minimizing
+    the cryptographic boundary (for FIPS 140-2 validation)'
+  - Developed the End-2-End mechanism for Shared Mesh Protection (SMP) for ODU connections.
+    This mechanism has been presented in various contributions to ITU-T SG15 Q9 (OTN
+    Equipment). This work contributed to the ITU-T recommendation G.783.3.
+  - Defined the mechanism to support hitless ODUFlex resizing (specific to DTN-X networks).
+    Working with ASIC & Software teams to get the mechanism implemented.
+  - Developed requirements related to control channel realization (e.g. trib & line
+    side GCC channels) for several generations of Infinera’s Network Elements.
+  - 'Developed DTN-X Network Architecture Specification. This specification takes
+    a top-down view of DTN-X networks, and contains an in-depth coverage of these
+    aspects: Layers (i.e. SignalsFormats), Adaptations, OTN atomic function realization,
+    and Defect propagation. This document is used as the basis to derive requirements
+    for the ASICsFPGAs.'
+  - 'Developed DTN Network Element requirements for these areas: GMPLS, L1VPN, Datapath
+    recovery (protection, and restoration).'
+
+- company: Fujitsu Network Communications
+  location: Richardson, USA
+  position: System Architect
+  website: https://www.fujitsu.com/us/products/network/
+  startDate: 5/2005
+  endDate: 10/1/2006
+  highlights:
+  - Participated in the architecture definition of the FW9500 hybrid platform that
+    supported TDM & Packet services (e.g. Point-to-Point Ethernet, VPLS) based on
+    MPLS Pseudowires
+  - Developed System Level Requirements for VPLS/H-VPLS, Control Plane High-Availability.
+  
+- company: Nortel
+  location: Richardson, USA
+  position: Contractor (SW development)
+  website: https://www.nortel.com
+  startDate: 12/2003
+  endDate: 4/2005
+  highlights:
+  - 'RSVP-TE for GGSN node: Wrote Functional Spec, Detailed Design & Designer Test plan. Worked
+    on design changes support for a redundant control processor.'
+  - 'BGP/MPLS VPNs for GGSN node: Wrote the Designer Test plan, 
+     Added support for MPLS & VRF historical statistics.'
+
+- company: Avici
+  location: Billerica, USA
+  position: Contractor (SW development)
+  website: ''
+  startDate: 10/2003
+  endDate: 11/2003
+  highlights:
+  - 'Resolved software issues related to: PPP, SONET Link Aggregation, MPLS LSP Protection
+    (Fast Reroute).'
+
+- company: Ciena
+  location: San Jose, USA
+  position: Contractor (Systems Arch)
+  website: https://www.ciena.com
+  startDate: 12/2002
+  endDate: 5/2003
+  highlights:
+  - 'Specified the functional requirements for the CoreDirector features: Connection
+    Test Access, Connection Loopback, OSI/DCC, 1GE/10GE tunneling with SONET/SDH VCAT/LCAS).'
+
+- company: Fujitsu Network Communications
+  location: Richardson, USA
+  position: Systems Architect
+  website: https://www.fujitsu.com/us/products/network/
+  startDate: 5/1998
+  endDate: 8/2002
+  highlights:
+  - Part of the team tasked with developing the architecture for the first TDM/Packet
+    Hybrid. Primarily responsible for Layer 2 and Layer 3 VPN support over MPLS networks.
+  - Investigated protection of Point-to-Multipoint (P2MP, or multicast) MPLS LSPs,
+    for the purposes of offering a fully protected TLS service.
+  - Specified the optical UNI (O-UNI) interface between an MPLS LER (Label Edge Router),
+    and the Optical Network Element (ONE).
+  - Specification of Network Element Management Information models, and protocol specific
+    realizations (in terms of TL-1 and SNMP)
+
+- company: Nortel
+  location: Ottawa, Canada
+  position: Member of Scientific Staff
+  website: https://www.nortel.com
+  startDate: 6/1984
+  endDate: 5/1998
+  highlights:
+  - Part of a team defining the End-to-end architecture of a system offering Broadband
+    access.
+  - Developed various features for the HFC Cable Modem. E.g. Lightweight ATM signaling
+    protocol, IP NAT (to support multiple attached PCs), Software Upgrade
+  - 'Designed & Developed software for the following layers in the OSI Stack: LAPD
+    (with QoS), Layer 3 (CLNP, IS-IS, ES-IS), and Layer 5 (Session Layer). Implemented
+    performance enhancements at Layers 2 through 4 of the OSI stack'
+  - Implemented various STREAM’s modules (e.g. TPI, Line Discipline Module, Serial
+    Drivers)
+  - Implemented a bridge for interconnecting IBM Token Ring LANs via a Frame Relay
+    WAN
+  - Analysis, Design, and Implementation of transparent access to (XMS based) remote
+    file servers (via X.25 networks), file transfer utilities.
+
+- company: Micom
+  location: Montreal, Canada
+  position: SW Designer
+  website: ''
+  startDate: 4/1981
+  endDate: 6/1984
+  highlights:
+  - 'Designed and Implemented software for data communication protocols (e.g. BISYNC,
+    SDLC, ISO Transport Layer 4/0, Session/Transport layers for Teletext service)'
+
+awards:
+- title: Infinera President's Award
+  date: '2009'
+  awarder: Infinera President
+  summary: ''
+
+- title: Carleton University Medal for Outstanding Graduate Work at the Ph.D. level
+  date: '1991'
+  awarder: Carleton University
+  summary: ''
+
+- title: Post-Graduate Scholarship from Nortel
+  date: Sept 1987 - Jan 1991
+  awarder: Nortel
+  summary: ''
+
+- title: Post-Graduate Scholarship from the Natural Sciences and Engineering Research
+    Council (NSERC) of Canada
+  date: Sept 1987 - August 1990
+  awarder: NCERC
+  summary: ''
+
+- title: President of India silver medal
+  date: '1978'
+  awarder: IIT Kharagpur
+  summary: Awarded for best academic performance in the graduating batch of the B.
+    Tech program in the Electronics & Communication Engineering (ECE) department
+
+- title: Stood fourth in the state of West Bengal in Higher Secondary Examination
+  date: '1973'
+  awarder: West Bengal HS Board
+  summary: ''
+
+bibfiles:
+  - patents.bib
+  - publications.bib
+
+skills:
+- level: ''
+  keywords:
+  - ''
+
+projects:
+- name: ''
+  description: ''
+  url: ''
+  keywords:
+  - ''
+
+publications:
+- name: ''
+  publisher: ''
+  releaseDate: ''
+  url: ''
+  summary: ''
+
+references:
+- name: ''
+  reference: ''
