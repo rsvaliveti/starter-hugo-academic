@@ -12,7 +12,7 @@ authors:
 tags: []
 categories: []
 date: '2017-01-01'
-lastmod: 2022-08-30T19:34:13-07:00
+lastmod: 2022-10-21T10:03:53-07:00
 featured: false
 draft: false
 
@@ -30,7 +30,7 @@ image:
 #   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
 projects: []
-publishDate: '2022-08-31T02:34:13.268882Z'
+publishDate: '2022-10-21T17:03:53.365287Z'
 publication_types:
 - '1'
 abstract: New extensions to Segment Routing are introduced here that allow for an

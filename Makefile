@@ -2,6 +2,8 @@
 
 PUBLISH=public/
 P=1313
+BIBDIR=_bibliography
+
 ####
 
 # Build the website
@@ -35,5 +37,5 @@ bib:
 	# https://github.com/wowchemy/hugo-academic-cli
 	pip3 install -U academic
 	# Import from BibTexfiles
-	academic import --bibtex ./static/bib/publications.bib
-	academic import --bibtex ./static/bib/patents.bib
+	academic import --bibtex $(BIBDIR)/papers.bib
+	academic import --bibtex $(BIBDIR)/patents.bib

@@ -11,7 +11,7 @@ authors:
 tags: []
 categories: []
 date: '1991-01-01'
-lastmod: 2022-08-30T19:34:12-07:00
+lastmod: 2022-10-21T10:03:52-07:00
 featured: false
 draft: false
 
@@ -29,7 +29,7 @@ image:
 #   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
 projects: []
-publishDate: '2022-08-31T02:34:12.367836Z'
+publishDate: '2022-10-21T17:03:52.071064Z'
 publication_types:
 - '1'
 abstract: The problem of reorganizing a linear list, when the individual records are

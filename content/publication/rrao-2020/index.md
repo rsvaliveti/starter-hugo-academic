@@ -14,7 +14,7 @@ authors:
 tags: []
 categories: []
 date: '2020-08-01'
-lastmod: 2022-08-30T19:34:16-07:00
+lastmod: 2022-10-21T10:03:57-07:00
 featured: false
 draft: false
 
@@ -32,7 +32,7 @@ image:
 #   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
 projects: []
-publishDate: '2022-08-31T02:34:15.902063Z'
+publishDate: '2022-10-21T17:03:57.271889Z'
 publication_types:
 - '8'
 abstract: A regen node is described. The regen node includes a coherent receiver,

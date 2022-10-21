@@ -11,7 +11,7 @@ authors:
 tags: []
 categories: []
 date: '1991-11-01'
-lastmod: 2022-08-30T19:34:11-07:00
+lastmod: 2022-10-21T10:03:51-07:00
 featured: false
 draft: false
 
@@ -29,7 +29,7 @@ image:
 #   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
 projects: []
-publishDate: '2022-08-31T02:34:11.748737Z'
+publishDate: '2022-10-21T17:03:51.157989Z'
 publication_types:
 - '2'
 abstract: The authors consider the problem of assigning more than one symbol of a
