@@ -6,11 +6,11 @@ on:
 env:
   HUGO_VERSION: '0.102.0'
   HUGO_CACHEDIR: /tmp/hugo_cache
-  GO_VERSION: '1.15'
+  GO_VERSION: '1.19.3'
 
 jobs:
   deploy:
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-22.04
     timeout-minutes: 3
     concurrency:
       group: ${{ github.workflow }}-${{ github.ref }}
@@ -27,7 +27,7 @@ jobs:
           go-version: '${{ env.GO_VERSION }}'
 
       - name: Setup Hugo
-        uses: peaceiris/actions-hugo@v2.5.0
+        uses: peaceiris/actions-hugo@v2.6.0
         with:
           hugo-version: "${{ env.HUGO_VERSION }}"
           extended: true
