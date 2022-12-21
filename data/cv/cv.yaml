@@ -4,20 +4,20 @@ basics:
   lastname: Valiveti
   email: rsvaliveti@gmail.com
   phone: 510-371-4014
-  website: rsvaliveti.github.io
+  website: https://rsvaliveti.github.io
   location:
     address: 5309 Asilomar Ct
     city:    Union City
     state:   CA
-    code:    94587
+    code:    '94587'
 
 education:
 - school: Carleton University
   location: Ottawa, Canada
   area: Electrical Engineering
   degree: Ph.D.
-  startDate: 9/1987
-  endDate: 12/1990
+  startDate: 1987-09-01
+  endDate: 1991-01-31
   gpa: " "
 
 - school: McGill University
@@ -25,16 +25,16 @@ education:
   degree: M. Sc.
   area: Computer Science
   gpa: " "
-  startDate: '1979'
-  endDate: '1981'
+  startDate: 1979-01-01
+  endDate: 1981-04-01
 
 - school: Indian Institute of Technology
   location: Kharagpur, India
   degree: B. Tech.
   area: Electronics and Electrical Communication
   gpa: " "
-  startDate: 7/1973
-  endDate: 5/1978
+  startDate: 1973-07-01
+  endDate: 1978-05-01
 
 summary:
   - Extensive experience in optical transport network architecture (e.g. OTN, SONET), 
@@ -55,7 +55,7 @@ work:
   location: Sunnyvale, USA
   position: System Architect (Distinguished Engineer)
   website: https://www.infinera.com
-  startDate: 10/2006
+  startDate: 2006-10-30
   highlights:
   - 'Developed (white-box) requirements for various generations of Infinera ASICs
     in these areas: G.709 OTN tributary interfaces, FlexE, FlexO, Infinera Proprietary
@@ -72,7 +72,7 @@ work:
   - Defined the mechanism to support hitless ODUFlex resizing (specific to DTN-X networks).
     Working with ASIC & Software teams to get the mechanism implemented.
   - Developed requirements related to control channel realization (e.g. trib & line
-    side GCC channels) for several generations of Infinera’s Network Elements.
+    side GCC channels) for several generations of Infinera's Network Elements.
   - 'Developed DTN-X Network Architecture Specification. This specification takes
     a top-down view of DTN-X networks, and contains an in-depth coverage of these
     aspects: Layers (i.e. SignalsFormats), Adaptations, OTN atomic function realization,
@@ -85,8 +85,8 @@ work:
   location: Richardson, USA
   position: System Architect
   website: https://www.fujitsu.com/us/products/network/
-  startDate: 5/2005
-  endDate: 10/1/2006
+  startDate: 2005-05-10
+  endDate:  2006-10-01
   highlights:
   - Participated in the architecture definition of the FW9500 hybrid platform that
     supported TDM & Packet services (e.g. Point-to-Point Ethernet, VPLS) based on
@@ -97,8 +97,8 @@ work:
   location: Richardson, USA
   position: Contractor (SW development)
   website: https://www.nortel.com
-  startDate: 12/2003
-  endDate: 4/2005
+  startDate: 2003-12-01
+  endDate: 2005-05-01
   highlights:
   - 'RSVP-TE for GGSN node: Wrote Functional Spec, Detailed Design & Designer Test plan. Worked
     on design changes support for a redundant control processor.'
@@ -108,9 +108,8 @@ work:
 - company: Avici
   location: Billerica, USA
   position: Contractor (SW development)
-  website: ''
-  startDate: 10/2003
-  endDate: 11/2003
+  startDate: 2003-10-01
+  endDate: 2003-11-20
   highlights:
   - 'Resolved software issues related to: PPP, SONET Link Aggregation, MPLS LSP Protection
     (Fast Reroute).'
@@ -119,8 +118,8 @@ work:
   location: San Jose, USA
   position: Contractor (Systems Arch)
   website: https://www.ciena.com
-  startDate: 12/2002
-  endDate: 5/2003
+  startDate: 2002-12-24
+  endDate: 2003-05-31
   highlights:
   - 'Specified the functional requirements for the CoreDirector features: Connection
     Test Access, Connection Loopback, OSI/DCC, 1GE/10GE tunneling with SONET/SDH VCAT/LCAS).'
@@ -129,8 +128,8 @@ work:
   location: Richardson, USA
   position: Systems Architect
   website: https://www.fujitsu.com/us/products/network/
-  startDate: 5/1998
-  endDate: 8/2002
+  startDate: 1998-05-08
+  endDate: 2002-08-28
   highlights:
   - Part of the team tasked with developing the architecture for the first TDM/Packet
     Hybrid. Primarily responsible for Layer 2 and Layer 3 VPN support over MPLS networks.
@@ -145,8 +144,8 @@ work:
   location: Ottawa, Canada
   position: Member of Scientific Staff
   website: https://www.nortel.com
-  startDate: 6/1984
-  endDate: 5/1998
+  startDate: 1984-06-01
+  endDate:  1998-05-01
   highlights:
   - Part of a team defining the End-to-end architecture of a system offering Broadband
     access.
@@ -155,7 +154,7 @@ work:
   - 'Designed & Developed software for the following layers in the OSI Stack: LAPD
     (with QoS), Layer 3 (CLNP, IS-IS, ES-IS), and Layer 5 (Session Layer). Implemented
     performance enhancements at Layers 2 through 4 of the OSI stack'
-  - Implemented various STREAM’s modules (e.g. TPI, Line Discipline Module, Serial
+  - Implemented various STREAMs modules (e.g. TPI, Line Discipline Module, Serial
     Drivers)
   - Implemented a bridge for interconnecting IBM Token Ring LANs via a Frame Relay
     WAN
@@ -165,69 +164,62 @@ work:
 - company: Micom
   location: Montreal, Canada
   position: SW Designer
-  website: ''
-  startDate: 4/1981
-  endDate: 6/1984
+  startDate: 1981-04-01
+  endDate: 1984-06-01
   highlights:
   - 'Designed and Implemented software for data communication protocols (e.g. BISYNC,
     SDLC, ISO Transport Layer 4/0, Session/Transport layers for Teletext service)'
 
 awards:
 - title: Infinera President's Award
-  date: '2009'
+  startDate: '2009-05-01'
   awarder: Infinera President
   summary: ''
 
 - title: Carleton University Medal for Outstanding Graduate Work at the Ph.D. level
-  date: '1991'
+  startDate: '1991-05-01'
   awarder: Carleton University
   summary: ''
 
 - title: Post-Graduate Scholarship from Nortel
-  date: Sept 1987 - Jan 1991
+  startDate: 1987-09-01
+  endDate: 1991-01-31
   awarder: Nortel
   summary: ''
 
 - title: Post-Graduate Scholarship from the Natural Sciences and Engineering Research
     Council (NSERC) of Canada
-  date: Sept 1987 - August 1990
-  awarder: NCERC
+  startDate: 1987-09-01
+  endDate: 1990-08-30
+  awarder: NSERC
   summary: ''
 
 - title: President of India silver medal
-  date: '1978'
+  startDate: '1978-05-01'
   awarder: IIT Kharagpur
   summary: Awarded for best academic performance in the graduating batch of the B.
     Tech program in the Electronics & Communication Engineering (ECE) department
 
 - title: Stood fourth in the state of West Bengal in Higher Secondary Examination
-  date: '1973'
+  startDate: '1973-06-01'
   awarder: West Bengal HS Board
   summary: ''
 
 bibfiles:
   - patents.bib
-  - publications.bib
+  - papers.bib
 
 skills:
-- level: ''
-  keywords:
-  - ''
+- name: ''
+  level: 100
 
 projects:
 - name: ''
   description: ''
-  url: ''
+  url: 'https://www.sample.net'
   keywords:
-  - ''
-
-publications:
-- name: ''
-  publisher: ''
-  releaseDate: ''
-  url: ''
-  summary: ''
+    - ""
 
 references:
 - name: ''
-  reference: ''
+  contact: ''
