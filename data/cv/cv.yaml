@@ -18,6 +18,9 @@ education:
   degree: Ph.D.
   startDate: 1987-09-01
   endDate: 1991-01-31
+  description:
+    - 'Thesis: Learning Algorithms for Data Storage & Retrieval'
+    - 'Supervisor: Prof. B. John Oomman'
   gpa: " "
 
 - school: McGill University
@@ -27,6 +30,9 @@ education:
   gpa: " "
   startDate: 1979-01-01
   endDate: 1981-04-01
+  description:
+    - 'Thesis: A Communications Controller for Small-Computer Networks'
+    - 'Supervisor: Prof. Kasi Ananthanarayanan'
 
 - school: Indian Institute of Technology
   location: Kharagpur, India
@@ -35,6 +41,8 @@ education:
   gpa: " "
   startDate: 1973-07-01
   endDate: 1978-05-01
+  description:
+    - 'Undergraduate Project: Symbolic Circuit Analysis'
 
 summary:
   - Extensive experience in optical transport network architecture (e.g. OTN, SONET), 
@@ -179,20 +187,20 @@ awards:
 - title: Carleton University Medal for Outstanding Graduate Work at the Ph.D. level
   startDate: '1991-05-01'
   awarder: Carleton University
-  summary: ''
+  summary: 'Awarded the best thesis of the year'
 
 - title: Post-Graduate Scholarship from Nortel
   startDate: 1987-09-01
   endDate: 1991-01-31
   awarder: Nortel
-  summary: ''
+  summary: 'Awarded for the duration of the Ph.D. program'
 
 - title: Post-Graduate Scholarship from the Natural Sciences and Engineering Research
     Council (NSERC) of Canada
   startDate: 1987-09-01
   endDate: 1990-08-30
   awarder: NSERC
-  summary: ''
+  summary: 'Awarded for the duration of the Ph.D. program'
 
 - title: President of India silver medal
   startDate: '1978-05-01'
@@ -203,7 +211,8 @@ awards:
 - title: Stood fourth in the state of West Bengal in Higher Secondary Examination
   startDate: '1973-06-01'
   awarder: West Bengal HS Board
-  summary: ''
+  summary: 'The state recognizes the top ten students who appeared for the Higher
+           Secondary Board Examination every year.'
 
 bibfiles:
   - patents.bib

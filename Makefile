@@ -3,12 +3,18 @@
 PUBLISH=public/
 P=1313
 BIBDIR=_bibliography
+CVDIR=data/cv
 
 ####
 
-# Build the website
+# Build the website (basic)
 .PHONY build:
-build:	bib
+build:	
+	hugo --gc --minify
+
+# Build the website (complete)
+.PHONY build: 
+build2:	bib pages
 	hugo --gc --minify
 
 # clean out the html folder (useful to clean old assets)
@@ -39,3 +45,11 @@ bib:
 	# Import from BibTexfiles
 	academic import --bibtex $(BIBDIR)/papers.bib
 	academic import --bibtex $(BIBDIR)/patents.bib
+
+.PHONY pages:
+pages:
+	pip3 install jinja-cli
+	# create MD files for education & work pages
+	jinja -d $(CVDIR)/cv.yaml content/work/index.j2 > content/work/index.md
+	jinja -d $(CVDIR)/cv.yaml content/education/index.j2 > content/education/index.md
+
