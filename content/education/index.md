@@ -1,9 +1,5 @@
 ---
-# file: index.j2
-# description:
-# - This file contains the jinja2 template for generating the content
-#   for the education & awards page.
-#
+
 # Leave the homepage title empty to use the site title
 title: Education & Awards
 date: 2022-12-22
@@ -28,7 +24,6 @@ sections:
           location: Ottawa, Canada
           date_start: 1987-09-01
           date_end: 1991-01-31
-          
           description: |2-
             * Thesis: Learning Algorithms for Data Storage & Retrieval
             * Supervisor: Prof. B. John Oomman
@@ -38,7 +33,6 @@ sections:
           location: Montreal, Canada
           date_start: 1979-01-01
           date_end: 1981-04-01
-          
           description: |2-
             * Thesis: A Communications Controller for Small-Computer Networks
             * Supervisor: Prof. Kasi Ananthanarayanan
@@ -48,7 +42,6 @@ sections:
           location: Kharagpur, India
           date_start: 1973-07-01
           date_end: 1978-05-01
-          
           description: |2-
             * Undergraduate Project: Symbolic Circuit Analysis
     design:

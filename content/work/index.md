@@ -1,9 +1,5 @@
 ---
-# file: index.j2
-# description:
-#  - this file contains the jinja2 template used to derive the content
-#    of the Work Experience page
-#
+
 # Leave the homepage title empty to use the site title
 title: Work Experience
 date: 2022-12-22

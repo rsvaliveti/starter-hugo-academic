@@ -1,9 +1,10 @@
 ---
-# file: index.j2
-# description:
-# - This file contains the jinja2 template for generating the content
-#   for the education & awards page.
-#
+{# 
+  file: index.j2
+  description:
+  - This file contains the jinja2 template for generating the content
+    for the education & awards page.
+#}
 # Leave the homepage title empty to use the site title
 title: Education & Awards
 date: 2022-12-22
@@ -29,7 +30,7 @@ sections:
           location: {{ entry.location }}
           date_start: {% if entry.startDate %}{{ entry.startDate }}{% endif %}
           date_end: {% if entry.endDate %}{{ entry.endDate }}{% endif %}
-          {% if entry.description %}
+          {%- if entry.description %}
           description: |2-
           {%- for item in entry.description %}
             * {{ item | wordwrap | indent(14) }}
