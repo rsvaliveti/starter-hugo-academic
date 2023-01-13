@@ -28,13 +28,13 @@ interests:
 education:
   courses:
   - course: Ph.D. (EE)
-    institution: Carleton University
+    institution: Carleton University, Ottawa, Canada
     year: 1991
   - course: M.Sc (Computer Science)
-    institution: McGill University
+    institution: McGill University, Montreal, Canada
     year: 1981
   - course: B.Tech. (Electronics & Comm Engg)
-    institution: Indian Institute of Technology
+    institution: Indian Institute of Technology, Kharagpur, India
     year: 1978
 
 # Social/Academic Networking
@@ -44,7 +44,7 @@ education:
 social:
 - icon: envelope
   icon_pack: fas
-  link: '/#contact'
+  link: 'mailto: rsvaliveti[AT]gmail[DOT]com'
 
 - icon: graduation-cap  # Alternatively, use `google-scholar` icon from `ai` icon pack
   icon_pack: fas
@@ -59,11 +59,11 @@ social:
   link: https://www.linkedin.com/in/rvaliveti
 
 # Link to a PDF of your resume/CV.
-# To use: copy your resume to `static/media/resume.pdf`, enable `ai` icons in `params.toml`, 
+# To use: copy your resume to `static/uploads/resume.pdf`, enable `ai` icons in `params.toml`, 
 # and uncomment the lines below.
-# - icon: cv
-#   icon_pack: ai
-#   link: media/resume.pdf
+- icon: cv
+  icon_pack: ai
+  link: uploads/resume.pdf
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email: ""
@@ -101,7 +101,5 @@ My graduate work was in the area of adaptive data structures. This work, builds
 on the concepts from Learning Automata, and examines the effectiveness of
 heuristics (e.g. Move-to-Front, Transpose) which organize data structures with
 each access, so as to (hopefully) optimize future accesses.
-
-{{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/resume.pdf" "newtab" >}}resumé{{< /staticref >}}.
 
 
