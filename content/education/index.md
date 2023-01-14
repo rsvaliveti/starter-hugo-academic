@@ -26,7 +26,7 @@ sections:
           date_end: 1991-01-31
           description: |2-
             * Thesis: Learning Algorithms for Data Storage & Retrieval
-            * Supervisor: Prof. B. John Oomman
+            * Supervisor: Prof. B. John Oommen
         - title: M. Sc. (Computer Science)
           company: McGill University
           company_url: ''

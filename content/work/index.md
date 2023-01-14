@@ -47,7 +47,7 @@ sections:
               top-down view of DTN-X networks, and contains an in-depth coverage of these
               aspects: Layers (i.e. SignalsFormats), Adaptations, OTN atomic function
               realization, and Defect propagation. This document is used as the basis to
-              derive requirements for the ASICsFPGAs.
+              derive requirements for the ASICs/FPGAs.
             * Developed DTN Network Element requirements for these areas: GMPLS, L1VPN,
               Datapath recovery (protection, and restoration).
         - title: System Architect

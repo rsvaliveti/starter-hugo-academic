@@ -20,7 +20,7 @@ education:
   endDate: 1991-01-31
   description:
     - 'Thesis: Learning Algorithms for Data Storage & Retrieval'
-    - 'Supervisor: Prof. B. John Oomman'
+    - 'Supervisor: Prof. B. John Oommen'
   gpa: " "
 
 - school: McGill University
@@ -85,7 +85,7 @@ work:
     a top-down view of DTN-X networks, and contains an in-depth coverage of these
     aspects: Layers (i.e. SignalsFormats), Adaptations, OTN atomic function realization,
     and Defect propagation. This document is used as the basis to derive requirements
-    for the ASICsFPGAs.'
+    for the ASICs/FPGAs.'
   - 'Developed DTN Network Element requirements for these areas: GMPLS, L1VPN, Datapath
     recovery (protection, and restoration).'
 
