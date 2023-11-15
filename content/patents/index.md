@@ -20,7 +20,7 @@ sections:
         tag: ''
         author: ''
         category: ''
-        publication_type: '8'
+        publication_type: 'patent'
         featured_only: false
         exclude_featured: false
         exclude_future: false

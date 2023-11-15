@@ -20,7 +20,7 @@ sections:
         tag: ''
         author: ''
         category: ''
-        publication_type: '2'
+        publication_type: 'article-journal'
         featured_only: false
         exclude_featured: false
         exclude_future: false
@@ -56,7 +56,7 @@ sections:
         tag: ''
         author: ''
         category: ''
-        publication_type: '1'
+        publication_type: 'paper-conference'
         featured_only: false
         exclude_featured: false
         exclude_future: false

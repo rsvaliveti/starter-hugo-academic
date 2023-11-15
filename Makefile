@@ -54,8 +54,8 @@ check:
 .PHONY bib:
 bib: $(VIRTUALENV)
 	# Import from BibTexfiles
-	pdm run academic import --bibtex $(BIBDIR)/papers.bib
-	pdm run academic import --bibtex $(BIBDIR)/patents.bib
+	pdm run academic import --bibtex $(BIBDIR)/papers.bib content/publication
+	pdm run academic import --bibtex $(BIBDIR)/patents.bib content/publication
 
 # create MD files for education & work pages
 .PHONY pages:

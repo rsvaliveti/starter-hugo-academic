@@ -1,5 +1,6 @@
 # IDEs
 .idea/
+.vscode/
 
 # Hugo
 resources/
@@ -11,5 +12,6 @@ go.sum
 
 # Python related
 .venv/
+__pypackages__/
 .pdm.toml
 
