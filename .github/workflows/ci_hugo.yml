@@ -4,7 +4,7 @@ on:
   workflow_dispatch
 
 env:
-  HUGO_VERSION: '0.124.0'
+  HUGO_VERSION: '0.126.0'
   HUGO_CACHEDIR: /tmp/hugo_cache
   GO_VERSION: '1.22.0'
 

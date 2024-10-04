@@ -5,11 +5,6 @@ basics:
   email: rsvaliveti@gmail.com
   phone: 510-371-4014
   website: https://rsvaliveti.github.io
-  location:
-    address: 5309 Asilomar Ct
-    city:    Union City
-    state:   CA
-    code:    '94587'
 
 education:
 - school: Carleton University
@@ -45,18 +40,19 @@ education:
     - 'Undergraduate Project: Symbolic Circuit Analysis'
 
 summary:
-  - Extensive experience in optical transport network architecture (e.g. OTN, SONET), 
-    network element architecture, design, and implementation of carrier-grade 
-    transmission products. 
-  - Extensive experience in developing requirements for ASICs/FPGAs used in OTN 
-    network elements
+  - 'Extensive experience in optical transport network architecture (e.g. OTN, SONET), 
+     network element architecture, design, and implementation of carrier-grade 
+     transmission products.' 
+  - 'Extensive experience in developing requirements for ASICs/FPGAs used in OTN 
+     network elements'
   - 'Regular contributor to ITU-T SG15 in the following areas: OTN Equipment, 
-    OTN Signal Formats & OTN Network Element Management.' 
-  - Co-authored IETF drafts related to GMPLS Extensions to support Beyond 100G
-    OTN links, FlexE connection signaling.
-  - Hands on experience with the design & implementation of protocol software 
-    for Layers 2-5 of the OSI stack (e.g. LAPD, CLNP, IS-IS, ES-IS, TP4), IP/ATM, MPLS based L3VPNs
-  - In-depth understanding of networking protocols, and their applications
+     OTN Signal Formats & OTN Network Element Management.' 
+  - 'Co-authored IETF drafts related to GMPLS Extensions to support Beyond 100G
+     OTN links, FlexE connection signaling. Editor for RFC9376 (Applicability
+     of GMPLS for beyond 100 Gbit/s Optical Transport Network)'
+  - 'Hands on experience with the design & implementation of protocol software 
+     for Layers 2-5 of the OSI stack (e.g. LAPD, CLNP, IS-IS, ES-IS, TP4), IP/ATM, MPLS based L3VPNs'
+  - 'In-depth understanding of networking protocols, and their applications'
 
 work:
 - company: Infinera Corp
@@ -73,17 +69,21 @@ work:
   - 'Developed requirements for Layer 1 encryption (AES-GCM, AES-CTR modes) in INFN
     ASICs: at the ODU layer (in mapper ASIC) & bulk encryption (DSP ASIC). These requirements
     addressed the following aspects: algorithmic compliance, support for minimizing
-    the cryptographic boundary (for FIPS 140-2 validation)'
-  - Developed the End-2-End mechanism for Shared Mesh Protection (SMP) for ODU connections.
+    the cryptographic boundary (for FIPS 140-2 validation).'
+  - 'Specified the architecture for supporting protection switching schemes (e.g., 1+1 SNCP, Y-cable)
+    in Infinera transponders and muxponders. This involved the timely reporting of defects to the
+    protection FSMs, FPGA assist to minimize the switching time.'
+  - 'Developed requirements for FEC Support for OC3/1GE Optical Supervisory Channels' 
+  - 'Developed the End-2-End mechanism for Shared Mesh Protection (SMP) for ODU connections.
     This mechanism has been presented in various contributions to ITU-T SG15 Q9 (OTN
-    Equipment). This work contributed to the ITU-T recommendation G.783.3.
-  - Defined the mechanism to support hitless ODUFlex resizing (specific to DTN-X networks).
-    Working with ASIC & Software teams to get the mechanism implemented.
-  - Developed requirements related to control channel realization (e.g. trib & line
-    side GCC channels) for several generations of Infinera's Network Elements.
+    Equipment). This work contributed to the ITU-T recommendation G.783.3.'
+  - 'Defined the mechanism to support hitless ODUFlex resizing (specific to DTN-X networks).
+     Working with ASIC & Software teams to get the mechanism implemented.'
+  - 'Developed requirements related to control channel realization (e.g. trib & line
+     side GCC channels) for several generations of Infinera Network Elements.'
   - 'Developed DTN-X Network Architecture Specification. This specification takes
     a top-down view of DTN-X networks, and contains an in-depth coverage of these
-    aspects: Layers (i.e. SignalsFormats), Adaptations, OTN atomic function realization,
+    aspects: Layers (i.e. Signals, Formats), Adaptations, OTN atomic function realization,
     and Defect propagation. This document is used as the basis to derive requirements
     for the ASICs/FPGAs.'
   - 'Developed DTN Network Element requirements for these areas: GMPLS, L1VPN, Datapath
@@ -179,6 +179,11 @@ work:
     SDLC, ISO Transport Layer 4/0, Session/Transport layers for Teletext service)'
 
 awards:
+- title: Infinera Spectrum Award
+  startDate: '2024-09-01'
+  awarder: Infinera CEO
+  summary: 'Part of the team that solved a 400GE interop issue between customer network router & INFN muxponder'
+
 - title: Infinera President's Award
   startDate: '2009-05-01'
   awarder: Infinera President

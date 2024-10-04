@@ -61,6 +61,14 @@ sections:
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
         - certificate_url: ''
+          date_start: 2024-09-01
+          date_end:   
+          description: Part of the team that solved a 400GE interop issue between customer network router & INFN muxponder
+          organization: Infinera CEO
+          organization_url: 
+          title: Infinera Spectrum Award
+          url: ''
+        - certificate_url: ''
           date_start: 2009-05-01
           date_end:   
           description: 

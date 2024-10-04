@@ -34,7 +34,12 @@ sections:
             * Developed requirements for Layer 1 encryption (AES-GCM, AES-CTR modes) in INFN
               ASICs: at the ODU layer (in mapper ASIC) & bulk encryption (DSP ASIC). These
               requirements addressed the following aspects: algorithmic compliance, support
-              for minimizing the cryptographic boundary (for FIPS 140-2 validation)
+              for minimizing the cryptographic boundary (for FIPS 140-2 validation).
+            * Specified the architecture for supporting protection switching schemes (e.g.,
+              1+1 SNCP, Y-cable) in Infinera transponders and muxponders. This involved the
+              timely reporting of defects to the protection FSMs, FPGA assist to minimize the
+              switching time.
+            * Developed requirements for FEC Support for OC3/1GE Optical Supervisory Channels
             * Developed the End-2-End mechanism for Shared Mesh Protection (SMP) for ODU
               connections. This mechanism has been presented in various contributions to
               ITU-T SG15 Q9 (OTN Equipment). This work contributed to the ITU-T
@@ -42,10 +47,10 @@ sections:
             * Defined the mechanism to support hitless ODUFlex resizing (specific to DTN-X
               networks). Working with ASIC & Software teams to get the mechanism implemented.
             * Developed requirements related to control channel realization (e.g. trib & line
-              side GCC channels) for several generations of Infinera's Network Elements.
+              side GCC channels) for several generations of Infinera Network Elements.
             * Developed DTN-X Network Architecture Specification. This specification takes a
               top-down view of DTN-X networks, and contains an in-depth coverage of these
-              aspects: Layers (i.e. SignalsFormats), Adaptations, OTN atomic function
+              aspects: Layers (i.e. Signals, Formats), Adaptations, OTN atomic function
               realization, and Defect propagation. This document is used as the basis to
               derive requirements for the ASICs/FPGAs.
             * Developed DTN Network Element requirements for these areas: GMPLS, L1VPN,
